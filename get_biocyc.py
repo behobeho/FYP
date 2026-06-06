@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 import itertools
 
 session = requests.Session()
-session.post('https://websvc.biocyc.org/credentials/login/', data={'email':'bh523@ic.ac.uk', 'password':'oRvKrA.%yU'})
+session.post('https://websvc.biocyc.org/credentials/login/', data={'email':'', 'password':''})
 
 BASE_URL_BIOCYC = "https://websvc.biocyc.org/apixml?"
 BASE_URL_UNIPROT = "https://rest.uniprot.org/uniprotkb/"
